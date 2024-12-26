@@ -10,8 +10,8 @@
     "path":"folders/Objects/Stuff.yy",
   },
   "parentObjectId":{
-    "name":"objBounce",
-    "path":"objects/objBounce/objBounce.yy",
+    "name":"objDashBlock",
+    "path":"objects/objDashBlock/objDashBlock.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

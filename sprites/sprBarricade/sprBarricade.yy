@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"22889728-6c46-47da-be01-11f62a3a90b6","blendMode":0,"displayName":"default","isLocked":false,"name":"22889728-6c46-47da-be01-11f62a3a90b6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"acf36b98-934f-40dd-885b-93f85c3a7f11","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"acf36b98-934f-40dd-885b-93f85c3a7f11","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sprBarricade",
   "nineSlice":null,

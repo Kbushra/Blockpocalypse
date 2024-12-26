@@ -10,8 +10,8 @@
   "name":"objGeneral",
   "overriddenProperties":[],
   "parent":{
-    "name":"Mechanics",
-    "path":"folders/Objects/Mechanics.yy",
+    "name":"Workers",
+    "path":"folders/Objects/Workers.yy",
   },
   "parentObjectId":null,
   "persistent":true,

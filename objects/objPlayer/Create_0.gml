@@ -14,4 +14,6 @@ initialY = 0;
 
 dashLength = 15;
 
+item = 0;
+
 mask_index = sprPlayerMask;

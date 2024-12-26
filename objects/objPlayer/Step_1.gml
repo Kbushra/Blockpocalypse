@@ -52,8 +52,14 @@ if !instance_exists(objShockwave)
 
 if dashing
 {
-	x = lerp(x, initialX + xDash, 0.2);
-	y = lerp(y, initialY + yDash, 0.2);
+	var newX = lerp(x, initialX + xDash, 0.2);
+	var newY = lerp(y, initialY + yDash, 0.2);
+	
+	if !place_free(newX, newY) && !place_meeting(newX, newY, objDashBlock)
+	{ dashing = false; dashLength = 15; exit; }
+	
+	x = newX;
+	y = newY;
 	dashLength--;
 	if dashLength <= 0 { dashing = false; dashLength = 15; }
 }

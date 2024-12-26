@@ -1,0 +1,2 @@
+initialY = y;
+moving = false;
