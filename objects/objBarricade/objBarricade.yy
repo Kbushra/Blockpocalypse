@@ -1,17 +1,19 @@
 {
   "$GMObject":"",
   "%Name":"objBarricade",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objBarricade",
   "overriddenProperties":[],
   "parent":{
-    "name":"Stuff",
-    "path":"folders/Objects/Stuff.yy",
+    "name":"Breakables",
+    "path":"folders/Objects/Breakables.yy",
   },
   "parentObjectId":{
-    "name":"objDashBlock",
-    "path":"objects/objDashBlock/objDashBlock.yy",
+    "name":"objBreakable",
+    "path":"objects/objBreakable/objBreakable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

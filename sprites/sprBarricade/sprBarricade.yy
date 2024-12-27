@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Sprites/Rooms.yy",
+    "name":"Breakables",
+    "path":"folders/Sprites/Rooms/Breakables.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

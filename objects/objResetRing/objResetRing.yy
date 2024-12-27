@@ -6,8 +6,8 @@
   "name":"objResetRing",
   "overriddenProperties":[],
   "parent":{
-    "name":"Stuff",
-    "path":"folders/Objects/Stuff.yy",
+    "name":"Other",
+    "path":"folders/Objects/Other.yy",
   },
   "parentObjectId":{
     "name":"objReset",

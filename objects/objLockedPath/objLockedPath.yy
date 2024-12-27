@@ -10,10 +10,13 @@
   "name":"objLockedPath",
   "overriddenProperties":[],
   "parent":{
-    "name":"Stuff",
-    "path":"folders/Objects/Stuff.yy",
+    "name":"Other",
+    "path":"folders/Objects/Other.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objSolid",
+    "path":"objects/objSolid/objSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -7,3 +7,5 @@ if !global.itemCreated { instance_create_layer(x, y-10, layer, item); global.ite
 item.x = x;
 item.y = y-10;
 item.depth = depth - 10;
+
+item.image_alpha = room != rmFall;

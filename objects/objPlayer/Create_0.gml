@@ -6,6 +6,7 @@ grounded = false;
 
 canDash = false;
 dashing = false;
+dashed = true;
 
 xDash = 0;
 yDash = 0;
@@ -15,5 +16,3 @@ initialY = 0;
 dashLength = 15;
 
 item = 0;
-
-mask_index = sprPlayerMask;

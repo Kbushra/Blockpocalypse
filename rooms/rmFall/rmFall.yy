@@ -9,14 +9,12 @@
     {"name":"introTeleporter","path":"rooms/rmFall/rmFall.yy",},
     {"name":"inst_792B10E4","path":"rooms/rmFall/rmFall.yy",},
     {"name":"inst_16E645A9","path":"rooms/rmFall/rmFall.yy",},
-    {"name":"inst_7850B7BD","path":"rooms/rmFall/rmFall.yy",},
     {"name":"inst_7DDCD90F","path":"rooms/rmFall/rmFall.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Effects","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Effects","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_7850B7BD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7850B7BD","objectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":224.0,},
         {"$GMRInstance":"v1","%Name":"inst_7DDCD90F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DDCD90F","objectId":{"name":"objAirplane","path":"objects/objAirplane/objAirplane.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":160.0,},
         {"$GMRInstance":"v1","%Name":"introTeleporter","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"introTeleporter","objectId":{"name":"objTeleport","path":"objects/objTeleport/objTeleport.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTeleport","path":"objects/objTeleport/objTeleport.yy",},"propertyId":{"name":"positionY","path":"objects/objTeleport/objTeleport.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"800",},

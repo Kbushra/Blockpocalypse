@@ -24,6 +24,17 @@ if flag == 1
 
 if flag == 2 && global.confirm
 {
-	introTeleporter.activated = false;
+	if !file_exists("Blockpocalypse") { introTeleporter.activated = false; }
+	else { cam_flash(c_black, 0.025, 0, id); }
+	
 	flag++;
+}
+
+if flag == 3 && halfMemo
+{
+	room_goto(global.spwnRoom);
+	objPlayer.x = global.spwnX;
+	objPlayer.y = global.spwnY;
+	objPlayer.image_angle = 0;
+	objPlayer.vMovement = 0;
 }
