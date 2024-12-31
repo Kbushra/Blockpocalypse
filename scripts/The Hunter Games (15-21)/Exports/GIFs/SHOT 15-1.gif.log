@@ -1,0 +1,21 @@
+C:/Users/WIN 11/Videos/Animations/ffmpeg/bin/ffmpeg.exe -hide_banner -y -y -r 12 -start_number 0 -start_number_range 1 -i C:/Users/WIN 11/Videos/Animations/Rain World/Challenges/The Hunter Games (15-21)/Exports/GIFs/frame%04d.png -i C:/Users/WIN 11/Videos/Animations/Rain World/Challenges/The Hunter Games (15-21)/Exports/GIFs/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff C:/Users/WIN 11/Videos/Animations/Rain World/Challenges/The Hunter Games (15-21)/Exports/GIFs/SHOT 15-1.gif
+=====================================================
+Input #0, image2, from 'C:/Users/WIN 11/Videos/Animations/Rain World/Challenges/The Hunter Games (15-21)/Exports/GIFs/frame%04d.png':
+  Duration: 00:00:02.44, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 1280x720 [SAR 3937:3937 DAR 16:9], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from 'C:/Users/WIN 11/Videos/Animations/Rain World/Challenges/The Hunter Games (15-21)/Exports/GIFs/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to 'C:/Users/WIN 11/Videos/Animations/Rain World/Challenges/The Hunter Games (15-21)/Exports/GIFs/SHOT 15-1.gif':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 12 fps, 100 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 gif
+frame=   20 fps=0.0 q=-0.0 size=     206KiB time=00:00:01.66 bitrate=1011.2kbits/s speed= 3.2x    frame=   41 fps= 40 q=-0.0 size=     252KiB time=00:00:03.41 bitrate= 605.0kbits/s speed=3.34x    [out#0/gif @ 000002b7bb5ff1c0] video:267KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.007314%
+frame=   61 fps= 41 q=-0.0 Lsize=     267KiB time=00:00:05.08 bitrate= 430.4kbits/s speed=3.44x    

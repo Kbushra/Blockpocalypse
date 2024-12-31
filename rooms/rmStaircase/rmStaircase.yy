@@ -76,7 +76,7 @@
           -15,14,1,5,-15,-2147483648,1,7,-15,-2147483648,1,7,-15,-2147483648,1,7,-4,2,1,3,-10,-2147483648,1,7,
           -4,8,2,10,3,-9,-2147483648,1,7,-5,8,2,10,3,-8,-2147483648,1,7,-6,8,2,10,3,-7,-2147483648,1,7,-7,8,2,
           10,3,-6,-2147483648,1,7,-8,8,2,10,3,-5,-2147483648,1,7,-9,8,2,10,3,-4,-2147483648,2,7,4,-9,14,1,15,-4,
-          -2147483648,2,7,9,-14,-2147483648,1,7,-14,-2147483648,2,2,11,-256,-2147483648,
+          -2147483648,2,7,9,-14,-2147483648,1,7,-14,-2147483648,2,2,11,-15,-2147483648,1,8,-240,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tlEarth","path":"tilesets/tlEarth/tlEarth.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":16,"TileCompressedData":[
           -15,14,1,5,-15,-2147483648,1,7,-15,-2147483648,1,7,-15,-2147483648,1,7,-4,2,1,3,-10,-2147483648,1,7,
@@ -92,8 +92,8 @@
   ],
   "name":"rmStaircase",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Tutorial",
+    "path":"folders/Rooms/Tutorial.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

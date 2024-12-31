@@ -70,7 +70,8 @@ if dashing
 	var newX = lerp(x, initialX + xDash, 0.2);
 	var newY = lerp(y, initialY + yDash, 0.2);
 	
-	if place_meeting(newX, newY, objSolid) { dashing = false; dashLength = 15; exit; }
+	if place_meeting(newX, newY, objSolid) || place_meeting(newX, newY, objDoor)
+	{ dashing = false; dashLength = 15; exit; }
 	
 	x = newX;
 	y = newY;

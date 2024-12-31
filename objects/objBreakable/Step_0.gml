@@ -5,7 +5,7 @@ if breakId != -1 && uses <= 0 { global.broken[breakId] = true; }
 
 if hit
 {
-	objPlayer.canDash = true;
+	if regenDash { objPlayer.canDash = true; }
 	broken = uses <= 0;
 	
 	//objPlayer.x = lerp(objPlayer.x, initialX - (progX*position), 0.2);

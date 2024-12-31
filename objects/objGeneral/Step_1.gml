@@ -1,4 +1,7 @@
 global.confirm = keyboard_check_pressed(vk_enter);
+
+if !global.movement { exit; }
+
 global.jump = keyboard_check_pressed(vk_space);
 
 if !instance_exists(objTransition)

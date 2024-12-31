@@ -1,7 +1,6 @@
 objPlayer.image_angle += 5;
 objPlayer.image_xscale = 1;
 objPlayer.image_yscale = 1;
-objPlayer.x = 256;
 
 if flag == 0
 {
@@ -35,6 +34,9 @@ if flag == 3 && halfMemo
 	room_goto(global.spwnRoom);
 	objPlayer.x = global.spwnX;
 	objPlayer.y = global.spwnY;
+	
 	objPlayer.image_angle = 0;
 	objPlayer.vMovement = 0;
+	
+	global.movement = true;
 }
