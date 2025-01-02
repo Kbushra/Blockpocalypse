@@ -2,6 +2,8 @@ objPlayer.image_angle += 5;
 objPlayer.image_xscale = 1;
 objPlayer.image_yscale = 1;
 
+if instance_exists(objGun) { objGun.shooting = false; }
+
 if flag == 0
 {
 	objPlayer.vMovement = 0;
@@ -39,4 +41,6 @@ if flag == 3 && halfMemo
 	objPlayer.vMovement = 0;
 	
 	global.movement = true;
+	
+	global.itemCreated = false;
 }

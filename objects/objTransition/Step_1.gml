@@ -1,0 +1,1 @@
+if instance_exists(objGun) { objGun.shooting = false; }

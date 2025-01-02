@@ -29,6 +29,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"itemName","filters":[],"listItems":[],"multiselect":false,"name":"itemName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"KeyCard","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"item","filters":[],"listItems":[],"multiselect":false,"name":"item","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"objKeyCard","path":"objects/objKeyCard/objKeyCard.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"objKeyCard","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"itemX","filters":[],"listItems":[],"multiselect":false,"name":"itemX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"itemY","filters":[],"listItems":[],"multiselect":false,"name":"itemY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"num","filters":[],"listItems":[],"multiselect":false,"name":"num","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

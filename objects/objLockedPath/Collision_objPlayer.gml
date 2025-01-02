@@ -1,1 +1,1 @@
-if !solid { moving = true; }
+if !solid { moving = true; global.opened[num] = true; }
