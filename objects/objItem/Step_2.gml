@@ -1,0 +1,1 @@
+if objPlayer.image_speed == 1 { y += 3; image_angle += 5; image_speed = 0; image_index = 0; }

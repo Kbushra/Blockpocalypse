@@ -1,0 +1,1 @@
+if global.respawn { sprite_index = sprDeathOut; }

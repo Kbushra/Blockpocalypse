@@ -16,6 +16,19 @@ for (var i = 1; i <= global.tableCount; i++)
 
 ini_close();
 
-room_goto(rmFall);
-objPlayer.x = 256;
-objPlayer.y = 224;
+if !global.respawn
+{
+	room_goto(rmFall);
+	objPlayer.x = 256;
+	objPlayer.y = 224;
+}
+else
+{
+	instance_create_layer(0, 0, "Effects", objDeath);
+	
+	room_goto(global.spwnRoom);
+	objPlayer.x = global.spwnX;
+	objPlayer.y = global.spwnY;
+	
+	global.respawn = false;
+}

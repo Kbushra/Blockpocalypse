@@ -18,3 +18,5 @@ global.l = false;
 global.r = false;
 global.u = false;
 global.d = false;
+
+if !variable_global_exists("respawn") { global.respawn = false; }

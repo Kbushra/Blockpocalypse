@@ -1,0 +1,1 @@
+if !other.broken { instance_destroy(); }

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":5,
   "parent":{
-    "name":"Mechanics",
-    "path":"folders/Sprites/Mechanics.yy",
+    "name":"Attacks",
+    "path":"folders/Sprites/Mechanics/Attacks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

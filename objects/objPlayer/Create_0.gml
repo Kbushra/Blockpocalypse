@@ -1,3 +1,5 @@
+image_speed = 0;
+
 vMovement = 0;
 hMovement = 0;
 
@@ -16,3 +18,5 @@ initialY = 0;
 dashLength = 15;
 
 item = 0;
+
+hp = 6;

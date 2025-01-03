@@ -1,0 +1,1 @@
+if dead { y += 3; image_angle += 5; image_speed = 0; image_index = 0; }
