@@ -1,6 +1,8 @@
 hp = 15;
 sat = 0;
 
+iframes = 5;
+
 hMovement = 0;
 vMovement = 0;
 

@@ -9,8 +9,8 @@
   "name":"objTable",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Other.yy",
+    "name":"Mechanics",
+    "path":"folders/Objects/Mechanics.yy",
   },
   "parentObjectId":null,
   "persistent":false,

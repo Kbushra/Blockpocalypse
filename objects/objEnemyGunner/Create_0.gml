@@ -1,6 +1,8 @@
 hp = 15;
 sat = 0;
 
+iframes = 5;
+
 depth = myDepth;
 image_speed = 0;
 

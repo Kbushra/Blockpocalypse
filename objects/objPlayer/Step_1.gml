@@ -1,3 +1,5 @@
+if instance_exists(objNuke) && objNuke.exploded && !collision_rectangle(x-16, 0, x+16, y-16, objSolid, false, true) { hp = 0; }
+
 if grounded
 {
 	canDash = false;

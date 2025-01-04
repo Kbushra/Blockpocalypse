@@ -16,6 +16,7 @@ if image_speed == 0
 if global.r { item.image_xscale = -1; }
 if global.l { item.image_xscale = 1; }
 
+if instance_exists(objTransition) { hp = 6; }
 
 if hp <= 0
 {
@@ -31,3 +32,7 @@ if hp <= 0
 	global.u = false;
 	global.d = false;
 }
+
+image_blend = make_color_hsv(0, sat, 255);
+sat -= 10;
+sat = clamp(sat, 0, 255);

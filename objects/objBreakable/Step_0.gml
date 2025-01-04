@@ -3,18 +3,17 @@
 if global.reset && breakId == -1 { uses = maxUses; broken = false; }
 if breakId != -1 && uses <= 0 { global.broken[breakId] = true; }
 
+if global.jump { hit = false; }
+
 if hit
 {
 	if regenDash { objPlayer.canDash = true; }
 	broken = uses <= 0;
-	
-	//objPlayer.x = lerp(objPlayer.x, initialX - (progX*position), 0.2);
-	//objPlayer.y = lerp(objPlayer.x, initialY + (progY*position), 0.2);
-	bounceLength--;
-	if bounceLength <= 0 { hit = false; }
 }
 
 solid = !broken;
+
+if instance_exists(objNuke) && objNuke.exploded { uses = 0; broken = true; }
 
 if !broken
 {

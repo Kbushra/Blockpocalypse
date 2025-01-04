@@ -9,8 +9,8 @@
   "name":"objArenaLock",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Other.yy",
+    "name":"Mechanics",
+    "path":"folders/Objects/Mechanics.yy",
   },
   "parentObjectId":{
     "name":"objSolid",
