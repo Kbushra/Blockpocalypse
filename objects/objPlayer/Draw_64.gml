@@ -4,5 +4,5 @@ if global.item == "KeyCard" && intro && !instance_exists(objTransition)
 	draw_set_font(fntGui);
 	
 	draw_set_halign(textalign_center);
-	draw_text(276, 45, "Return to entrance");
+	draw_text(256, 30, "Return to entrance");
 }

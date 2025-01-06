@@ -5,6 +5,8 @@ if grounded { vMovement = 0; }
 
 y += vMovement;
 
+if stuck { exit; }
+
 if dashing && yDash <= 0
 {
 	image_xscale = 1;

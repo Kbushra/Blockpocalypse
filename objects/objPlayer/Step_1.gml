@@ -1,5 +1,8 @@
 if instance_exists(objNuke) && objNuke.exploded && !collision_rectangle(x-16, 0, x+16, y-16, objSolid, false, true) { hp = 0; }
 
+if global.jump { stuck = false; }
+if stuck { vMovement = 0; y = initialY; exit; }
+
 if grounded
 {
 	canDash = false;
@@ -13,14 +16,13 @@ else if !dashed { canDash = true; }
 if !place_free(x+1, y) { x--; }
 if !place_free(x-1, y) { x++; }
 
-
 if vMovement != 0
 {
 	if !place_free(x, y+vMovement)
 	{
 		if vMovement > 0
 		{
-			if vMovement == 10 { instance_create_layer(x, y+10, layer, objShockwave); }
+			if vMovement == 10 { instance_create_layer(x, y+20, layer, objShockwave); }
 	
 			grounded = true;
 			while place_free(x, y+2) { y++; }

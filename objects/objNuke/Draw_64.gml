@@ -1,14 +1,19 @@
 if !active
 {
-	draw_set_font(fntGui);
-	draw_set_halign(textalign_center);
-	draw_text(276, 45, "GET COVER");
-	draw_text(276, 77, string( ceil(timer/60) ));
+	if room == rmArena2
+	{
+		draw_set_font(fntGui);
+		draw_set_halign(textalign_center);
+		draw_text(256, 45, "GET COVER");
+		draw_text(256, 77, string( ceil(timer/60) ));
+	}
 
 	draw_sprite_ext(sprAirplaneShadow, floor(ind)%2, xPos, 60, 1, 1, 30, c_white, 1);
 	ind += 0.185;
 	xPos -= 5;
 	timer--;
+	
+	x = objPlayer.x;
 	
 	if timer <= 0 { active = true; }
 }

@@ -6,6 +6,8 @@ breakSprite = -1;
 normSprite = sprite_index;
 broken = false;
 
+wobbleTimer = 0;
+
 if breakId != -1 && global.broken[breakId]
 {
 	uses = 0;

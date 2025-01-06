@@ -22,3 +22,5 @@ item = 0;
 hp = 6;
 
 sat = 0;
+
+stuck = false;
