@@ -7,5 +7,5 @@ if image_speed == 1 { weapon.dead = true; }
 
 iframes--;
 
-if instance_exists(objNuke) && objNuke.exploded && !collision_rectangle(x-16, 0, x+16, y-16, objSolid, false, true)
-{ hp = 0; image_speed = 1; }
+var protected = collision_rectangle(x-16, 0, x+16, y-16, objSolid, false, true);
+if instance_exists(objNuke) && objNuke.exploded && !protected { hp = 0; image_speed = 1; }

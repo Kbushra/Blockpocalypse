@@ -99,6 +99,7 @@
     {"id":{"name":"rmArena1","path":"rooms/rmArena1/rmArena1.yy",},},
     {"id":{"name":"rmArena2","path":"rooms/rmArena2/rmArena2.yy",},},
     {"id":{"name":"rmArena3","path":"rooms/rmArena3/rmArena3.yy",},},
+    {"id":{"name":"rmArena4","path":"rooms/rmArena4/rmArena4.yy",},},
     {"id":{"name":"rmFall","path":"rooms/rmFall/rmFall.yy",},},
     {"id":{"name":"rmGunBreak","path":"rooms/rmGunBreak/rmGunBreak.yy",},},
     {"id":{"name":"rmHospital","path":"rooms/rmHospital/rmHospital.yy",},},
@@ -110,6 +111,7 @@
     {"id":{"name":"rmSubway","path":"rooms/rmSubway/rmSubway.yy",},},
     {"id":{"name":"rmWire","path":"rooms/rmWire/rmWire.yy",},},
     {"id":{"name":"scrFunctions","path":"scripts/scrFunctions/scrFunctions.yy",},},
+    {"id":{"name":"scrPlayerShortener","path":"scripts/scrPlayerShortener/scrPlayerShortener.yy",},},
     {"id":{"name":"sprAirplane","path":"sprites/sprAirplane/sprAirplane.yy",},},
     {"id":{"name":"sprAirplaneShadow","path":"sprites/sprAirplaneShadow/sprAirplaneShadow.yy",},},
     {"id":{"name":"sprArenaLock","path":"sprites/sprArenaLock/sprArenaLock.yy",},},
@@ -184,6 +186,7 @@
     {"roomId":{"name":"rmHospitalExit","path":"rooms/rmHospitalExit/rmHospitalExit.yy",},},
     {"roomId":{"name":"rmArena3","path":"rooms/rmArena3/rmArena3.yy",},},
     {"roomId":{"name":"rmWire","path":"rooms/rmWire/rmWire.yy",},},
+    {"roomId":{"name":"rmArena4","path":"rooms/rmArena4/rmArena4.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

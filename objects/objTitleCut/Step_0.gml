@@ -26,7 +26,7 @@ if flag == 1
 if flag == 2 && global.confirm
 {
 	if !file_exists("Blockpocalypse") { introTeleporter.activated = false; }
-	else { cam_flash(c_black, 0.025, 0, id); }
+	else { camFlash(c_black, 0.025, 0, id); }
 	
 	flag++;
 }

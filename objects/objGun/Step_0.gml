@@ -1,4 +1,4 @@
-if global.confirm { shooting = !shooting; image_index = 0; }
+if global.confirm && global.item == "Gun" { shooting = !shooting; image_index = 0; }
 
 image_speed = shooting;
 
