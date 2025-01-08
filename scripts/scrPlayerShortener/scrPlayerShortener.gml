@@ -85,12 +85,6 @@ function hpManagement()
 		if image_index >= 7 { image_index = 7; }
 	
 		global.movement = false;
-
-		global.confirm = false;
-		global.jump = false;
-		global.l = false;
-		global.r = false;
-		global.u = false;
-		global.d = false;
+		pauseControl();
 	}
 }

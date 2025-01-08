@@ -15,3 +15,14 @@ function colourManagement()
 	sat -= 10;
 	sat = clamp(sat, 0, 255);
 }
+
+function pauseControl()
+{
+	global.confirm = false;
+	global.jump = false;
+	
+	global.l = false;
+	global.r = false;
+	global.u = false;
+	global.d = false;
+}

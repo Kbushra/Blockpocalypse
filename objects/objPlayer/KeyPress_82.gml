@@ -1,0 +1,1 @@
+if global.movement { hp = 0; }
