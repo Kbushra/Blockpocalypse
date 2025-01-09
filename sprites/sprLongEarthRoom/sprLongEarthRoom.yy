@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprLongEarthRoom",
   "bboxMode":0,
-  "bbox_bottom":383,
+  "bbox_bottom":575,
   "bbox_left":0,
   "bbox_right":2047,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":16,
   "gridY":2048,
-  "height":384,
+  "height":576,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"59ec3c0f-4abf-4366-9e7b-5b9346a57410","blendMode":0,"displayName":"default","isLocked":false,"name":"59ec3c0f-4abf-4366-9e7b-5b9346a57410","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

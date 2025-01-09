@@ -70,6 +70,7 @@
     {"id":{"name":"objDeath","path":"objects/objDeath/objDeath.yy",},},
     {"id":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
+    {"id":{"name":"objEnemyCut","path":"objects/objEnemyCut/objEnemyCut.yy",},},
     {"id":{"name":"objEnemyExplosive","path":"objects/objEnemyExplosive/objEnemyExplosive.yy",},},
     {"id":{"name":"objEnemyGunner","path":"objects/objEnemyGunner/objEnemyGunner.yy",},},
     {"id":{"name":"objFlimsyGround","path":"objects/objFlimsyGround/objFlimsyGround.yy",},},
@@ -102,6 +103,7 @@
     {"id":{"name":"rmArena2","path":"rooms/rmArena2/rmArena2.yy",},},
     {"id":{"name":"rmArena3","path":"rooms/rmArena3/rmArena3.yy",},},
     {"id":{"name":"rmArena4","path":"rooms/rmArena4/rmArena4.yy",},},
+    {"id":{"name":"rmArenaFinale","path":"rooms/rmArenaFinale/rmArenaFinale.yy",},},
     {"id":{"name":"rmCorridor","path":"rooms/rmCorridor/rmCorridor.yy",},},
     {"id":{"name":"rmFall","path":"rooms/rmFall/rmFall.yy",},},
     {"id":{"name":"rmGunBreak","path":"rooms/rmGunBreak/rmGunBreak.yy",},},
@@ -195,6 +197,7 @@
     {"roomId":{"name":"rmArena4","path":"rooms/rmArena4/rmArena4.yy",},},
     {"roomId":{"name":"rmWarzoneRest","path":"rooms/rmWarzoneRest/rmWarzoneRest.yy",},},
     {"roomId":{"name":"rmCorridor","path":"rooms/rmCorridor/rmCorridor.yy",},},
+    {"roomId":{"name":"rmArenaFinale","path":"rooms/rmArenaFinale/rmArenaFinale.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
