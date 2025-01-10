@@ -1,0 +1,1 @@
+if instance_exists(objNuke) && objNuke.y >= room_height { image_index = 1; solid = false; }

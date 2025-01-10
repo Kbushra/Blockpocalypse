@@ -5,7 +5,7 @@ global.doorID = -1;
 global.reset = false;
 global.itemCreated = false;
 
-global.brokenCount = 11;
+global.brokenCount = 14;
 global.openCount = 2;
 global.tableCount = 2;
 

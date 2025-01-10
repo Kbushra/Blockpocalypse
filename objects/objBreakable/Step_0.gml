@@ -13,7 +13,8 @@ if hit
 
 solid = !broken;
 
-if instance_exists(objNuke) && objNuke.exploded { uses = 0; broken = true; }
+var nukeable = breakId == -1 && !infUses;
+if instance_exists(objNuke) && objNuke.exploded && nukeable { uses = 0; broken = true; }
 
 if !broken
 {
