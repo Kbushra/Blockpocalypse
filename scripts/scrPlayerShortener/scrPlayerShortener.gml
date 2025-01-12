@@ -77,7 +77,7 @@ function hpManagement()
 	if instance_exists(objTransition) && image_index == 0 { hp = 6; return; }
 	
 	var protected = collision_rectangle(x-16, 0, x+16, y-16, objSolid, false, true);
-	if instance_exists(objNuke) && objNuke.exploded && !protected { hp = 0; }
+	if instance_exists(objNuke) && objNuke.exploded && !protected && room != rmRuins { hp = 0; }
 
 	if hp <= 0
 	{

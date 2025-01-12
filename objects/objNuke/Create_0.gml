@@ -8,3 +8,5 @@ alpha = 0.1;
 memo = false;
 
 exploded = false;
+
+depth = -9999;
