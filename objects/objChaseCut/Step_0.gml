@@ -13,10 +13,10 @@ if flag == 1
 
 if flag == 2
 {
-	objAirplane.y -= 5;
+	objAirplane2.y -= 5;
 	objEnemyCut.y -= 5;
 	
-	if objAirplane.y < -200 { instance_destroy(objAirplane); instance_destroy(objEnemyCut); flag++; }
+	if objAirplane2.y < -200 { instance_destroy(objAirplane2); instance_destroy(objEnemyCut); flag++; }
 }
 
 if flag == 3 && objPlayer.x < 450
@@ -56,6 +56,7 @@ if flag == 6
 	{
 		x = lerp(x, objEnemyCut.x, 0.05);
 		y = lerp(y, objEnemyCut.y, 0.05);
+		image_angle += 3;
 		
 		if place_meeting(x, y, objEnemyCut) { other.flag++; other.sat = 255; }
 	}
@@ -72,6 +73,7 @@ if flag == 7
 	{
 		x = lerp(x, objEnemyCut.x, 0.05);
 		y = lerp(y, objEnemyCut.y, 0.05);
+		image_angle = lerp(image_angle, 720, 0.1);
 	}
 	
 	with (objEnemyCut)
@@ -97,6 +99,8 @@ if flag == 7
 
 if flag == 8
 {
+	objPlayer.image_angle = 0;
+	
 	xSize = lerp(xSize, 512, 0.1);
 	ySize = lerp(ySize, 384, 0.1);
 

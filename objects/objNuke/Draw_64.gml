@@ -10,7 +10,7 @@ if !active
 	
 	if room != rmRuins
 	{ draw_sprite_ext(sprAirplaneShadow, floor(ind)%2, xPos, 60, 1, 1, 30, c_white, 1); }
-	else { draw_sprite_ext(sprAirplane, floor(ind)%2, xPos+100, 60, 0.5, 0.5, 30, c_white, 1); }
+	else { draw_sprite_ext(sprAirplane2, floor(ind)%2, xPos+100, 60, 0.5, 0.5, 30, c_white, 1); }
 	
 	ind += 0.185;
 	xPos -= 5;

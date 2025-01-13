@@ -9,5 +9,5 @@ if halfMemo
 {
 	room_goto(rmHouse);
 	objPlayer.x = 256;
-	objPlayer.y = 270;
+	objPlayer.y = 224;
 }

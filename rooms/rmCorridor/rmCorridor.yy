@@ -33,8 +33,8 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"roomID","path":"objects/objDoor/objDoor.yy",},"resource":{"name":"rmArenaFinale","path":"rooms/rmArenaFinale/rmArenaFinale.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmArenaFinale",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":-32.0,"y":192.0,},
       ],"layers":[],"name":"Triggers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":24,"TileCompressedData":[-120,8,-22,14,2,5,8,-5,-2147483648,-14,0,-3,-2147483648,2,13,14,-48,-2147483648,-24,2,-48,8,],"TileDataFormat":1,},"tilesetId":{"name":"tlEarth","path":"tilesets/tlEarth/tlEarth.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sprBigEarthRoom","path":"sprites/sprBigEarthRoom/sprBigEarthRoom.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":18,"SerialiseWidth":24,"TileCompressedData":[-120,8,-22,14,2,5,8,-5,-2147483648,-14,0,-3,-2147483648,2,13,14,-48,-2147483648,-24,2,-192,8,],"TileDataFormat":1,},"tilesetId":{"name":"tlEarth","path":"tilesets/tlEarth/tlEarth.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"sprHighEarthRoom","path":"sprites/sprHighEarthRoom/sprHighEarthRoom.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rmCorridor",
   "parent":{
@@ -52,7 +52,7 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":384,
+    "Height":576,
     "inheritRoomSettings":false,
     "persistent":false,
     "Width":768,
