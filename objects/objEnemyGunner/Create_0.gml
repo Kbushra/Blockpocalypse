@@ -3,6 +3,7 @@ sat = 0;
 
 iframes = 5;
 
+if global.training { sprite_index = sprEnemyTrain; }
 image_speed = 0;
 
 weapon = instance_create_layer(x, y-10, "Instances", objOtherGun);

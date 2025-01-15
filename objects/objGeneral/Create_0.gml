@@ -7,10 +7,14 @@ global.itemCreated = false;
 
 global.brokenCount = 14;
 global.openCount = 2;
-global.tableCount = 2;
+global.tableCount = 3;
 
 global.movement = true;
 
+global.trainingSessions = 0;
+global.training = false;
+global.bullets = 0;
+global.maxBullets = 0;
 
 global.confirm = false;
 global.jump = false;
