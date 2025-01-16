@@ -1,3 +1,5 @@
+if gunReq { activated = global.item == "Gun"; }
+
 if notSolid { solid = false; }
 else { solid = !activated; }
 

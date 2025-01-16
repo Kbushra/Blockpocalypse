@@ -13,3 +13,6 @@ camera_set_view_pos(view_camera[0], clampX, clampY);
 
 objPlayer.x = positionX;
 objPlayer.y = positionY;
+
+objPlayer.dashing = false;
+objPlayer.dashLength = 15;

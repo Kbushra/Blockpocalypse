@@ -18,7 +18,7 @@ verticalChecks();
 
 if !instance_exists(objShockwave)
 {
-	hMovement = hMoving();
+	hMovement = lerp(hMovement, (global.r - global.l)*global.playerSpd, 0.2);
 	
 	if hMovement != 0 && place_free(x+hMovement, y) { x += hMovement; }
 	

@@ -1,6 +1,6 @@
 if global.confirm && global.item == "Gun" { shooting = !shooting; image_index = 0; }
 
-if global.training && global.bullets <= 0 { shooting = false; }
+if global.training && global.bullets <= 0 { shooting = false; image_index = 0; }
 
 image_speed = shooting;
 

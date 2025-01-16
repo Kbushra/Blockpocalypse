@@ -125,6 +125,7 @@
     {"id":{"name":"rmStaircase","path":"rooms/rmStaircase/rmStaircase.yy",},},
     {"id":{"name":"rmSubway","path":"rooms/rmSubway/rmSubway.yy",},},
     {"id":{"name":"rmTraining1","path":"rooms/rmTraining1/rmTraining1.yy",},},
+    {"id":{"name":"rmTraining2","path":"rooms/rmTraining2/rmTraining2.yy",},},
     {"id":{"name":"rmTrainingTutorial","path":"rooms/rmTrainingTutorial/rmTrainingTutorial.yy",},},
     {"id":{"name":"rmWarzoneRest","path":"rooms/rmWarzoneRest/rmWarzoneRest.yy",},},
     {"id":{"name":"rmWire","path":"rooms/rmWire/rmWire.yy",},},
@@ -232,6 +233,7 @@
     {"roomId":{"name":"rmCrossroads","path":"rooms/rmCrossroads/rmCrossroads.yy",},},
     {"roomId":{"name":"rmTrainingTutorial","path":"rooms/rmTrainingTutorial/rmTrainingTutorial.yy",},},
     {"roomId":{"name":"rmTraining1","path":"rooms/rmTraining1/rmTraining1.yy",},},
+    {"roomId":{"name":"rmTraining2","path":"rooms/rmTraining2/rmTraining2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

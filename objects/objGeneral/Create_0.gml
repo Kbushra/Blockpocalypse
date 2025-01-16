@@ -1,9 +1,13 @@
 window_set_caption("Blockpocalypse");
+random_get_seed();
 
 global.moveCam = false;
 global.doorID = -1;
 global.reset = false;
 global.itemCreated = false;
+
+global.playerSpd = 2;
+global.maxSpd = 2;
 
 global.brokenCount = 14;
 global.openCount = 2;

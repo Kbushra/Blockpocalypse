@@ -1,9 +1,3 @@
-function hMoving()
-{
-	var multiplier = 2 - place_meeting(x, y, objWire);
-	return lerp(hMovement, (global.r - global.l)*multiplier, 0.2)
-}
-
 function setupDash()
 {
 	xDash = global.r - global.l;

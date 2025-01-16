@@ -90,6 +90,7 @@
     {"name":"rmStaircase","order":3,"path":"rooms/rmStaircase/rmStaircase.yy",},
     {"name":"rmSubway","order":1,"path":"rooms/rmSubway/rmSubway.yy",},
     {"name":"rmTraining1","order":4,"path":"rooms/rmTraining1/rmTraining1.yy",},
+    {"name":"rmTraining2","order":5,"path":"rooms/rmTraining2/rmTraining2.yy",},
     {"name":"rmTrainingTutorial","order":3,"path":"rooms/rmTrainingTutorial/rmTrainingTutorial.yy",},
     {"name":"rmWarzoneRest","order":4,"path":"rooms/rmWarzoneRest/rmWarzoneRest.yy",},
     {"name":"rmWire","order":3,"path":"rooms/rmWire/rmWire.yy",},

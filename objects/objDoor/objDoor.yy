@@ -34,6 +34,7 @@
     {"$GMObjectProperty":"v1","%Name":"positionY","filters":[],"listItems":[],"multiselect":false,"name":"positionY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"activated","filters":[],"listItems":[],"multiselect":false,"name":"activated","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"notSolid","filters":[],"listItems":[],"multiselect":false,"name":"notSolid","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"gunReq","filters":[],"listItems":[],"multiselect":false,"name":"gunReq","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
