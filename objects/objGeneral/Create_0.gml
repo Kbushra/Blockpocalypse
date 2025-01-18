@@ -8,6 +8,7 @@ global.itemCreated = false;
 
 global.playerSpd = 2;
 global.maxSpd = 2;
+global.maxHp = 6;
 
 global.brokenCount = 14;
 global.openCount = 2;
@@ -16,6 +17,7 @@ global.tableCount = 3;
 global.movement = true;
 
 global.trainingSessions = 0;
+global.highScore = 0;
 global.training = false;
 global.bullets = 0;
 global.maxBullets = 0;

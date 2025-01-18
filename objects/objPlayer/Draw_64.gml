@@ -1,5 +1,5 @@
 draw_set_font(fntGui);
-draw_set_halign(textalign_center);
+draw_set_halign(fa_center);
 
 var intro = room == rmSubway || room == rmKeyCard;
 if global.item == "KeyCard" && intro && !instance_exists(objTransition)
@@ -10,6 +10,9 @@ if room == rmHouse && !instance_exists(objTransition)
 
 if global.training && global.item = "Gun" && global.bullets != -1
 {
-	draw_set_halign(textalign_left);
+	draw_set_halign(fa_left);
 	draw_text(32, 4, $"{global.bullets}/{global.maxBullets}");
+	
+	if global.trainingSessions > 0
+	{ draw_text(32, 32, $"SCORE: {global.trainingSessions-1}"); }
 }

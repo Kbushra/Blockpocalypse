@@ -3,7 +3,7 @@ if !active
 	if room == rmArena2
 	{
 		draw_set_font(fntGui);
-		draw_set_halign(textalign_center);
+		draw_set_halign(fa_center);
 		draw_text(256, 45, "GET COVER");
 		draw_text(256, 77, string( ceil(timer/60) ));
 	}

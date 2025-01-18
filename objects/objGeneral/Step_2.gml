@@ -7,3 +7,5 @@ if room == rmTrainingTutorial && !global.training
 	objPlayer.sprite_index = sprPlayerTrain;
 	objPlayer.image_speed = 0;
 }
+
+if global.highScore < global.trainingSessions - 1 { global.highScore = global.trainingSessions-1; }

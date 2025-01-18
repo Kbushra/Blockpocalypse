@@ -6,7 +6,7 @@ if flag == 2
 	
 	draw_set_font(fntGui);
 	
-	draw_set_halign(textalign_center);
+	draw_set_halign(fa_center);
 	draw_text(256, 338, "Press ENTER to continue");
 }
 else { yPos = lerp(yPos, -100, 0.05); }

@@ -4,6 +4,7 @@ global.spwnRoom = ini_read_real("Stats", "Spawn room", rmFall);
 global.spwnX = ini_read_real("Stats", "Spawn X", 256);
 global.spwnY = ini_read_real("Stats", "Spawn Y", 224);
 global.item = ini_read_string("Stats", "Item", "");
+global.highScore = ini_read_real("Stats", "High score", 0);
 
 for (var i = 1; i <= global.brokenCount; i++)
 { global.broken[i-1] = ini_read_real("Object state", $"Object {i} broken", false); }
