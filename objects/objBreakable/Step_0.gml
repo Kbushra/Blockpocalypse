@@ -1,4 +1,5 @@
 //-1 = Vertical, 1 = Horizontal
+if breakId != -1 && global.broken[breakId] { audio = -1; }
 
 if global.reset && breakId == -1 { uses = maxUses; broken = false; }
 if breakId != -1 && uses <= 0 { global.broken[breakId] = true; }
@@ -22,5 +23,9 @@ if !broken
 	exit;
 }
 
-if sprite_index != breakSprite { sprite_index = breakSprite; }
+if sprite_index != breakSprite
+{
+	sprite_index = breakSprite;
+	if audio != -1 { audio_play_sound(audio, 10, false); }
+}
 if image_index >= image_number - 1 { image_index = image_number - 1; }

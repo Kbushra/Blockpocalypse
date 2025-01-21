@@ -1,0 +1,1 @@
+soundId = audio_play_sound(sndHelicopter, 10, false);

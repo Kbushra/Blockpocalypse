@@ -1,0 +1,1 @@
+audio_sound_gain(soundId, 1 - ( abs(y-objPlayer.y)/320 ), 100);

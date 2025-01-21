@@ -1,1 +1,2 @@
 breakSprite = sprDashPortalBreak;
+audio = sndPortalBreak;

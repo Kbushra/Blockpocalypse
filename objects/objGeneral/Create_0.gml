@@ -1,3 +1,6 @@
+audio_sound_set_track_position(sndHardLand, 0.35);
+audio_sound_set_track_position(sndDash, 0.35);
+
 window_set_caption("Blockpocalypse");
 random_get_seed();
 

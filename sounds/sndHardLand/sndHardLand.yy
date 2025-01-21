@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndHardLand",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.4555,
+  "name":"sndHardLand",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sounds/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndHardLand.mp3",
+  "type":0,
+  "volume":1.0,
+}

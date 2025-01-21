@@ -1,1 +1,2 @@
 breakSprite = sprReinforcedBarricadeBreak;
+audio = sndWoodBreak;

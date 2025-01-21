@@ -4,6 +4,7 @@ uses = maxUses;
 
 breakSprite = -1;
 normSprite = sprite_index;
+audio = -1;
 broken = false;
 
 wobbleTimer = 0;

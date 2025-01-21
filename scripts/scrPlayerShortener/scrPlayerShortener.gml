@@ -13,6 +13,8 @@ function setupDash()
 		dashing = true;
 		canDash = false;
 		dashLength = 15;
+		
+		audio_play_sound(sndDash, 10, false);
 	}
 }
 
