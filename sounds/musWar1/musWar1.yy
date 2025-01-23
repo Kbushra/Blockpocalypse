@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"musSubway",
+  "%Name":"musWar1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":67.21306,
-  "name":"musSubway",
+  "duration":55.196735,
+  "name":"musWar1",
   "parent":{
     "name":"Music",
     "path":"folders/Sounds/Music.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"musSubway.mp3",
+  "soundFile":"musWar1.mp3",
   "type":0,
   "volume":1.0,
 }

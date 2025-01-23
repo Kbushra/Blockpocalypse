@@ -1,8 +1,8 @@
 ini_open("Blockpocalypse");
 
-global.spwnRoom = ini_read_real("Stats", "Spawn room", rmFall);
-global.spwnX = ini_read_real("Stats", "Spawn X", 256);
-global.spwnY = ini_read_real("Stats", "Spawn Y", 224);
+global.spwnRoom = ini_read_real("Stats", "Spawn room", rmSubway);
+global.spwnX = ini_read_real("Stats", "Spawn X", 262);
+global.spwnY = ini_read_real("Stats", "Spawn Y", -60);
 global.item = ini_read_string("Stats", "Item", "");
 global.highScore = ini_read_real("Stats", "High score", 0);
 

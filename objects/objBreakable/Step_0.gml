@@ -26,6 +26,6 @@ if !broken
 if sprite_index != breakSprite
 {
 	sprite_index = breakSprite;
-	if audio != -1 { audio_play_sound(audio, 10, false); }
+	if audio != -1 && !instance_exists(objNuke) { audio_play_sound(audio, 10, false); }
 }
 if image_index >= image_number - 1 { image_index = image_number - 1; }
