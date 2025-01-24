@@ -17,6 +17,8 @@ initialY = 0;
 
 dashLength = 15;
 
+dashId = -1;
+
 item = 0;
 
 hp = 6;

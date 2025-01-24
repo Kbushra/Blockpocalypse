@@ -12,6 +12,7 @@ function camFlash(_color, _amount, _hold, _target)
 function colourManagement()
 {
 	image_blend = make_color_hsv(0, sat, 255);
+	if sat == 255 && image_speed == 0 { audio_play_sound(sndHit, 10, false); }
 	sat -= 10;
 	sat = clamp(sat, 0, 255);
 }

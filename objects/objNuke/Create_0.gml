@@ -9,4 +9,7 @@ memo = false;
 
 exploded = false;
 
+sound1 = -1;
+sound2 = -1;
+
 depth = -9999;

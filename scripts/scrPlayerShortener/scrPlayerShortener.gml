@@ -14,7 +14,7 @@ function setupDash()
 		canDash = false;
 		dashLength = 15;
 		
-		audio_play_sound(sndDash, 10, false);
+		dashId = audio_play_sound(sndDash, 10, false);
 	}
 }
 
@@ -30,6 +30,7 @@ function dashMove()
 	
 	x = newX;
 	y = newY;
+	
 	dashLength--;
 	if dashLength <= 0 { dashing = false; dashLength = 15; }
 }

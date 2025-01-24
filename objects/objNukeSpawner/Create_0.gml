@@ -1,1 +1,1 @@
-timer = irandom_range(900, 1200);
+timer = irandom_range(750, 1000);

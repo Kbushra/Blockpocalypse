@@ -10,4 +10,7 @@ if room == rmArena1 && stage == 1 { stage = 2; audio_sound_set_track_position(so
 if room == rmArena2 && stage == 2 { stage = 3; audio_sound_set_track_position(soundId, 35.4); }
 if room == rmNoMan && stage == 3 { stage = 0; audio_sound_gain(soundId, 0, 2000); }
 
-if room == rmHospital && audio_is_playing(musWar1) { audio_stop_sound(musWar1); }
+if room == rmHospital && audio_is_playing(musWar1) { audio_stop_sound(musWar1); soundId = -1; }
+
+if stage > 1 && !audio_is_playing(sndWarAtmo) { audio_play_sound(sndWarAtmo, 10, true); }
+if stage <= 1 && audio_is_playing(sndWarAtmo) { audio_stop_sound(sndWarAtmo); }

@@ -1,5 +1,8 @@
 if !active
 {
+	if sound1 == -1 { sound1 = audio_play_sound(sndHelicopter, 10, false); }
+	else { audio_sound_gain(sound1, 0, 6000); }
+	
 	if room == rmArena2
 	{
 		draw_set_font(fntGui);

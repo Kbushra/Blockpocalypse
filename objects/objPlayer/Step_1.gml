@@ -30,3 +30,4 @@ if !instance_exists(objShockwave)
 }
 
 if dashing { dashMove(); }
+else if audio_is_playing(sndDash) { audio_sound_gain(dashId, 0, 50); }
