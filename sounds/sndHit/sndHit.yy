@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.912,
+  "duration":0.0,
   "name":"sndHit",
   "parent":{
     "name":"Sound",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndHit.mp3",
+  "soundFile":"sndHit",
   "type":0,
   "volume":1.0,
 }

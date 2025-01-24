@@ -12,5 +12,28 @@ if room == rmNoMan && stage == 3 { stage = 0; audio_sound_gain(soundId, 0, 2000)
 
 if room == rmHospital && audio_is_playing(musWar1) { audio_stop_sound(musWar1); soundId = -1; }
 
+if room == rmArena3
+{
+	if stage == 0
+	{
+		stage = 2;
+		soundId = audio_play_sound(musWar2, 10, false);
+		audio_sound_gain(soundId, 0, 0);
+		audio_sound_set_track_position(soundId, 10.8);
+	}
+	else if audio_sound_get_gain(soundId) < objPlayer.y/688
+	{ audio_sound_gain(soundId, objPlayer.y/688, 0); }
+}
+
+if room == rmWire && stage == 2 { stage = 1; audio_sound_set_track_position(soundId, 0); }
+if room == rmArena4 && stage = 1 { stage = 3; audio_sound_set_track_position(soundId, 31.2); }
+
+if room == rmWarzoneRest && audio_is_playing(musWar2)
+{
+	stage = 0;
+	audio_sound_gain(musWar2, 0, 2000);
+	if audio_sound_get_gain(soundId) == 0 { audio_stop_sound(soundId); soundId = -1; }
+}
+
 if stage > 1 && !audio_is_playing(sndWarAtmo) { audio_play_sound(sndWarAtmo, 10, true); }
 if stage <= 1 && audio_is_playing(sndWarAtmo) { audio_stop_sound(sndWarAtmo); }

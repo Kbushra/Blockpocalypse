@@ -7,22 +7,42 @@ if audio_is_playing(musSubway)
 	endpoint = 64;
 }
 
-if audio_is_playing(musWar1) && stage == 1
+if audio_is_playing(musWar1)
 {
-	startpoint = 0;
-	endpoint = 4.8;
+	switch (stage)
+	{
+		case 1:
+			startpoint = 0;
+			endpoint = 4.8;
+			break;
+		case 2:
+			startpoint = 15;
+			endpoint = 34.2;
+			break;
+		case 3:
+			startpoint = 35.4;
+			endpoint = 54.6;
+			break;
+	}
 }
 
-if audio_is_playing(musWar1) && stage == 2
+if audio_is_playing(musWar2)
 {
-	startpoint = 15;
-	endpoint = 34.2;
-}
-
-if audio_is_playing(musWar1) && stage == 3
-{
-	startpoint = 35.4;
-	endpoint = 54.6;
+	switch (stage)
+	{
+		case 1:
+			startpoint = 0;
+			endpoint = 9.6;
+			break;
+		case 2:
+			startpoint = 10.8;
+			endpoint = 30;
+			break;
+		case 3:
+			startpoint = 31.2;
+			endpoint = 50.4;
+			break;
+	}
 }
 
 //Loop music

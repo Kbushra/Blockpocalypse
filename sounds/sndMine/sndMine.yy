@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sndBullet",
+  "%Name":"sndMine",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.544,
-  "name":"sndBullet",
+  "duration":1.512,
+  "name":"sndMine",
   "parent":{
     "name":"Sound",
     "path":"folders/Sounds/Sound.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndBullet.mp3",
+  "soundFile":"sndMine.mp3",
   "type":0,
-  "volume":0.08,
+  "volume":1.0,
 }

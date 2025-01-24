@@ -16,3 +16,5 @@ objPlayer.y = positionY;
 
 objPlayer.dashing = false;
 objPlayer.dashLength = 15;
+
+if sound { audio_play_sound(sndTeleport, 10, false); }

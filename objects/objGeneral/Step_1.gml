@@ -11,3 +11,4 @@ if !instance_exists(objTransition)
 	global.u = keyboard_check(vk_up) || keyboard_check(ord("W"));
 	global.d = keyboard_check(vk_down) || keyboard_check(ord("S"));
 }
+

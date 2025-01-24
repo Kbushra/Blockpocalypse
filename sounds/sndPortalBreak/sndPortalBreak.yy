@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.696,
+  "duration":0.36,
   "name":"sndPortalBreak",
   "parent":{
     "name":"Sound",
