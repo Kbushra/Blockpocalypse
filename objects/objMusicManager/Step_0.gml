@@ -35,5 +35,18 @@ if room == rmWarzoneRest && audio_is_playing(musWar2)
 	if audio_sound_get_gain(soundId) == 0 { audio_stop_sound(soundId); soundId = -1; }
 }
 
+if room == rmCorridor && global.item != "Gun" && stage == 0
+{ stage = 1; soundId = audio_play_sound(musWar3, 10, false); }
+
+if room == rmArenaFinale && stage == 1 { stage = 2; audio_sound_set_track_position(soundId, 10.8); }
+if room == rmRuins
+{
+	if stage == 2 { stage = 1; audio_sound_set_track_position(soundId, 0); }
+	audio_sound_gain(soundId, objPlayer.x/3072, 100);
+}
+if room == rmEnding && audio_is_playing(musWar3) { audio_stop_sound(musWar3); soundId = -1; }
+
+
+
 if stage > 1 && !audio_is_playing(sndWarAtmo) { audio_play_sound(sndWarAtmo, 10, true); }
 if stage <= 1 && audio_is_playing(sndWarAtmo) { audio_stop_sound(sndWarAtmo); }

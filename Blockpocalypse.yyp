@@ -143,6 +143,7 @@
     {"id":{"name":"musSubway","path":"sounds/musSubway/musSubway.yy",},},
     {"id":{"name":"musWar1","path":"sounds/musWar1/musWar1.yy",},},
     {"id":{"name":"musWar2","path":"sounds/musWar2/musWar2.yy",},},
+    {"id":{"name":"musWar3","path":"sounds/musWar3/musWar3.yy",},},
     {"id":{"name":"sndBullet","path":"sounds/sndBullet/sndBullet.yy",},},
     {"id":{"name":"sndDash","path":"sounds/sndDash/sndDash.yy",},},
     {"id":{"name":"sndHardLand","path":"sounds/sndHardLand/sndHardLand.yy",},},
