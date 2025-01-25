@@ -42,11 +42,18 @@ if room == rmArenaFinale && stage == 1 { stage = 2; audio_sound_set_track_positi
 if room == rmRuins
 {
 	if stage == 2 { stage = 1; audio_sound_set_track_position(soundId, 0); }
-	audio_sound_gain(soundId, objPlayer.x/3072, 100);
+	audio_sound_gain(soundId, (objPlayer.x-1000)/3072, 100);
 }
-if room == rmEnding && audio_is_playing(musWar3) { audio_stop_sound(musWar3); soundId = -1; }
+if room == rmEnding && audio_is_playing(musWar3) { audio_stop_sound(musWar3); soundId = -1; stage = 0; }
 
-
+if global.training
+{
+	if stage == 0 { stage = 1; soundId = audio_play_sound(musWar4, 10, false); }
+	
+	if room != rmTrainingTutorial && room != rmSpeedNerf && room != rmHealthNerf
+	{ if stage == 1 { stage = 2; audio_sound_set_track_position(soundId, 10.8); } }
+	else if stage == 2 { stage = 1; audio_sound_set_track_position(soundId, 0); }
+}
 
 if stage > 1 && !audio_is_playing(sndWarAtmo) { audio_play_sound(sndWarAtmo, 10, true); }
 if stage <= 1 && audio_is_playing(sndWarAtmo) { audio_stop_sound(sndWarAtmo); }
