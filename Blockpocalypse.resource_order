@@ -103,6 +103,8 @@
     {"name":"rmWarzoneRest","order":4,"path":"rooms/rmWarzoneRest/rmWarzoneRest.yy",},
     {"name":"rmWire","order":3,"path":"rooms/rmWire/rmWire.yy",},
     {"name":"scrPlayerShortener","order":1,"path":"scripts/scrPlayerShortener/scrPlayerShortener.yy",},
+    {"name":"musHospital","order":6,"path":"sounds/musHospital/musHospital.yy",},
+    {"name":"musRadio","order":5,"path":"sounds/musRadio/musRadio.yy",},
     {"name":"musWar1","order":1,"path":"sounds/musWar1/musWar1.yy",},
     {"name":"musWar2","order":2,"path":"sounds/musWar2/musWar2.yy",},
     {"name":"musWar3","order":3,"path":"sounds/musWar3/musWar3.yy",},

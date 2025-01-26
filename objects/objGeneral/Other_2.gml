@@ -33,5 +33,3 @@ else
 	
 	global.respawn = false;
 }
-
-show_debug_log(true);

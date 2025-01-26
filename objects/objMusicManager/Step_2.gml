@@ -75,9 +75,21 @@ if audio_is_playing(musWar4)
 	}
 }
 
+if audio_is_playing(musRadio) && !audio_is_playing(musWar2)
+{
+	startpoint = 16;
+	endpoint = 32;
+}
+
+if audio_is_playing(musHospital)
+{
+	startpoint = 16;
+	endpoint = 48;
+}
+
 //Loop music
 var trackpos = audio_sound_get_track_position(soundId);
-var clampPos = clamp(trackpos, 0, endpoint);
+var clamppos = clamp(trackpos, 0, endpoint);
 
-if trackpos != clampPos
+if trackpos != clamppos
 { audio_sound_set_track_position(soundId, startpoint); }

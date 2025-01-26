@@ -1,1 +1,0 @@
-if global.trainingSessions <= 6 { instance_destroy(); }

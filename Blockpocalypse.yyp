@@ -140,6 +140,8 @@
     {"id":{"name":"rmWire","path":"rooms/rmWire/rmWire.yy",},},
     {"id":{"name":"scrFunctions","path":"scripts/scrFunctions/scrFunctions.yy",},},
     {"id":{"name":"scrPlayerShortener","path":"scripts/scrPlayerShortener/scrPlayerShortener.yy",},},
+    {"id":{"name":"musHospital","path":"sounds/musHospital/musHospital.yy",},},
+    {"id":{"name":"musRadio","path":"sounds/musRadio/musRadio.yy",},},
     {"id":{"name":"musSubway","path":"sounds/musSubway/musSubway.yy",},},
     {"id":{"name":"musWar1","path":"sounds/musWar1/musWar1.yy",},},
     {"id":{"name":"musWar2","path":"sounds/musWar2/musWar2.yy",},},
