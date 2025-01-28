@@ -1,6 +1,6 @@
 xPos = 512;
 ind = 0;
-timer = 180;
+timer = 240 - (60*global.gamemode);
 
 active = false;
 
