@@ -26,7 +26,20 @@ function dashMove()
 	var newY = lerp(y, initialY + yDash, 0.2);
 	
 	if place_meeting(newX, newY, objSolid) || place_meeting(newX, newY, objDoor)
-	{ dashing = false; dashLength = 15; exit; }
+	{
+		if xDash != 0 { var signX = xDash/abs(xDash); } else { var signX = 0; }
+		if yDash != 0 { var signY = yDash/abs(yDash); } else { var signY = 0; }
+		
+		while !place_meeting(x+signX, y+signY, objSolid) && !place_meeting(x+signX, y+signY, objDoor)
+		{
+			x += signX;
+			y += signY;
+		}
+		
+		dashing = false;
+		dashLength = 15;
+		exit;
+	}
 	
 	x = newX;
 	y = newY;

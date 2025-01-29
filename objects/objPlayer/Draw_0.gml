@@ -1,5 +1,5 @@
 draw_self();
-if canDash && !file_exists("Blockpocalypse") { draw_sprite(sprPlayerArrows, 0, x, y); }
+if canDash && global.spwnRoom == rmSubway { draw_sprite(sprPlayerArrows, 0, x, y); }
 
 if room == rmTrainingTutorial
 {

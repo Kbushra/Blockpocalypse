@@ -5,7 +5,10 @@ global.spwnX = ini_read_real("Stats", "Spawn X", 262);
 global.spwnY = ini_read_real("Stats", "Spawn Y", -60);
 global.item = ini_read_string("Stats", "Item", "");
 global.highScore = ini_read_real("Stats", "High score", 0);
-global.gamemode = ini_read_real("Stats", "Game mode", 0);
+
+global.gamemode = ini_read_real("Settings", "Game mode", 0);
+global.volume = ini_read_real("Settings", "Volume", 1);
+audio_set_master_gain(0, global.volume);
 
 for (var i = 1; i <= global.brokenCount; i++)
 { global.broken[i-1] = ini_read_real("Object state", $"Object {i} broken", false); }

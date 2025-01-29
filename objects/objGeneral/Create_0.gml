@@ -7,7 +7,6 @@ audio_sound_loop_end(sndWarAtmo, 22);
 window_set_caption("Blockpocalypse");
 random_get_seed();
 
-global.moveCam = false;
 global.doorID = -1;
 global.reset = false;
 global.itemCreated = false;
@@ -29,6 +28,7 @@ global.bullets = 0;
 global.maxBullets = 0;
 
 global.confirm = false;
+global.escape = false;
 global.jump = false;
 global.l = false;
 global.r = false;

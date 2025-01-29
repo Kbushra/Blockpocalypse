@@ -10,6 +10,8 @@ if halfMemo
 	room_goto(rmHouse);
 	objPlayer.x = 256;
 	objPlayer.y = 224;
+	
+	global.movement = true;
 }
 
 if sprite_index == sprEnding3 && audio_is_playing(sndBuzzing)
