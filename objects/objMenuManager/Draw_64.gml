@@ -1,9 +1,15 @@
 if global.movement && !instance_exists(objTransition)
 {
-	draw_sprite(sprMenuOpener, 0, camera_get_view_width(view_camera[0]), 0);
+	draw_sprite(sprMenuOpener, 0, display_get_gui_width(), 0);
+	
 	if global.escape { open = !open; selection = 0; }
 	
-	if open { instance_deactivate_all(true); audio_set_master_gain(0, global.volume/2); }
+	if open
+	{
+		instance_deactivate_all(true);
+		instance_activate_object(objMusicManager);
+		audio_set_master_gain(0, global.volume/2);
+	}
 	else { instance_activate_all(); audio_set_master_gain(0, global.volume); }
 }
 

@@ -7,7 +7,12 @@ if global.training && image_index >= 4 { image_index = 4; }
 if global.training && image_alpha <= 0 { instance_destroy(); }
 
 timer--;
-if timer <= 0 { instance_create_layer(x, y, "Instances", objMine); timer = irandom_range(120, 240); }
+if timer <= 0
+{
+	instance_create_layer(x, y, "Instances", objMine);
+	timer = irandom_range(120, 240);
+	if global.gamemode == 1 { timer = irandom_range(80, 160); }
+}
 
 iframes--;
 

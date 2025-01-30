@@ -16,3 +16,4 @@ if global.training { sprite_index = sprEnemyTrain; }
 image_speed = 0;
 
 timer = irandom_range(120, 240);
+if global.gamemode == 1 { timer = irandom_range(80, 160); }

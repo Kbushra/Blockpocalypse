@@ -1,7 +1,7 @@
 //Play music
 if room != rmFall && audio_is_playing(sndWind) { audio_stop_sound(sndWind); }
 if room == rmSubway && !audio_is_playing(musSubway) { soundId = audio_play_sound(musSubway, 10, true); }
-if room == rmStaircase { audio_sound_gain(soundId, objPlayer.y/960, 100); }
+if room == rmStaircase && instance_exists(objPlayer) { audio_sound_gain(soundId, objPlayer.y/960, 100); }
 if room == rmGunBreak && audio_is_playing(musSubway) { audio_stop_sound(musSubway); soundId = -1; }
 
 if global.item == "Gun" && room == rmGunBreak && stage == 0
@@ -27,7 +27,7 @@ if room == rmArena3
 		audio_sound_gain(soundId, 0, 0);
 		audio_sound_set_track_position(soundId, 10.8);
 	}
-	else if audio_sound_get_gain(soundId) < objPlayer.y/688
+	else if instance_exists(objPlayer) && audio_sound_get_gain(soundId) < objPlayer.y/688
 	{ audio_sound_gain(soundId, objPlayer.y/688, 0); }
 }
 
@@ -60,7 +60,7 @@ if room == rmArenaFinale && stage == 1 { stage = 2; audio_sound_set_track_positi
 if room == rmRuins
 {
 	if stage == 2 { stage = 1; audio_sound_set_track_position(soundId, 0); }
-	audio_sound_gain(soundId, (objPlayer.x-1000)/3072, 100);
+	if instance_exists(objPlayer) { audio_sound_gain(soundId, (objPlayer.x-1000)/3072, 100); }
 }
 if room == rmEnding && audio_is_playing(musWar3) { audio_stop_sound(musWar3); soundId = -1; stage = 0; }
 
